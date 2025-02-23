@@ -1,0 +1,27 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ramitsuri.podcasts.android",
+      "sha256_cert_fingerprints": [
+        "28:CD:58:7F:30:EB:10:EC:D1:90:57:19:90:8B:A5:50:7E:CE:64:67:A4:BA:B0:51:C8:00:82:65:61:8B:C5:D5"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ramitsuri.podcasts.android.debug",
+      "sha256_cert_fingerprints": [
+        "A6:52:64:6A:56:A1:0C:66:E0:5B:24:38:10:9D:5F:44:68:03:F8:D2:9D:D5:D7:88:03:BD:A2:AF:FC:93:A8:FC"
+      ]
+    }
+  }
+]
